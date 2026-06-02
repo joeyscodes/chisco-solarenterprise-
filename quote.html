@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get a free solar quote from Chisco Solar Enterprises. Fill out the form and we'll design a custom solution for your home or business.">
+  <meta property="og:title" content="Request a Free Solar Quote | Chisco Solar Enterprises">
+  <meta property="og:description" content="Tell us about your energy needs and we'll prepare a tailored solar proposal with no obligation.">
+  <title>Get a Free Quote | Chisco Solar Enterprises</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="scroll-sentinel"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">CHISCO<span>SOLAR</span></div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="calculator.html">Savings</a>
+      <a href="quote.html" class="nav-cta">Get Quote</a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header" style="background: var(--blue-dark); color: #fff;">
+    <div class="breadcrumb" style="color: var(--gold-accent);">Home > Get a Quote</div>
+    <h1 style="color: #fff;">Request Your Free Solar Quote</h1>
+    <p style="color: rgba(255,255,255,0.85); max-width: 600px; margin: 1rem auto;">
+      Fill in the details below and our energy experts will prepare a personalised proposal for you — completely free and with no obligations.
+    </p>
+  </section>
+
+  <!-- Quote Form -->
+  <section class="section reveal">
+    <div class="form-container" style="max-width: 700px;">
+      <form class="ajax-form" action="https://formspree.io/f/FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" placeholder="e.g. 08012345678" required>
+        </div>
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp Number (if different)</label>
+          <input type="tel" id="whatsapp" name="whatsapp" placeholder="e.g. 08012345678">
+        </div>
+        <div class="form-group">
+          <label for="location">Your Location (Area / City) *</label>
+          <input type="text" id="location" name="location" placeholder="e.g. Surulere, Lagos" required>
+        </div>
+        <div class="form-group">
+          <label for="propertyType">Property Type *</label>
+          <select id="propertyType" name="propertyType" required>
+            <option value="">Select property type</option>
+            <option value="residential">Residential (Home / Flat)</option>
+            <option value="commercial">Commercial (Office / Shop)</option>
+            <option value="church">Church / Religious Centre</option>
+            <option value="school">School / Educational Institution</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="monthlyCost">Approximate Monthly Electricity Cost (₦)</label>
+          <input type="number" id="monthlyCost" name="monthlyCost" placeholder="e.g. 40000" min="0">
+        </div>
+        <div class="form-group">
+          <label for="message">Describe Your Needs (optional)</label>
+          <textarea id="message" name="message" placeholder="Tell us about your current power situation, appliances you want to run, or any special requirements..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Request & Get Quote</button>
+      </form>
+
+      <!-- Confirmation message (hidden by default) -->
+      <div id="confirmation-message" class="confirmation">
+        <i style="font-size: 3rem; color: var(--green-accent);">✓</i>
+        <h3>Quote Request Sent!</h3>
+        <p>We've received your details and a member of our team will reach out to you shortly on WhatsApp or phone to discuss your custom solar proposal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust reassurance -->
+  <section class="section reveal" style="text-align: center; background: #F4F6F9;">
+    <span class="section-label">Why Request a Quote?</span>
+    <h2>No Hidden Charges. No Pressure.</h2>
+    <div class="features-grid" style="margin-top: 2rem;">
+      <div class="glass-card" style="background: #fff;">
+        <h3>Free Assessment</h3>
+        <p>We visit your location at no cost to evaluate the site and discuss options.</p>
+      </div>
+      <div class="glass-card" style="background: #fff;">
+        <h3>Custom Design</h3>
+        <p>Your proposal is tailored exactly to your energy usage and budget.</p>
+      </div>
+      <div class="glass-card" style="background: #fff;">
+        <h3>Transparent Pricing</h3>
+        <p>We break down all costs clearly — equipment, installation, and warranty.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="footer-col">
+        <h3>CHISCO<span style="color:var(--gold-accent);">SOLAR</span></h3>
+        <p>Powering Nigeria with clean, reliable solar energy.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="quote.html">Get Quote</a>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p>Alaba Rago Rd, Alaba International Market Rd, Ojo, Lagos</p>
+        <a href="tel:+2348104269327">08104269327</a>
+        <a href="mailto:info@chiscosolar.com">info@chiscosolar.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year"></span> Chisco Solar Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348104269327?text=Hello%20Chisco%20Solar%20Enterprises%2C%20I%20would%20like%20a%20free%20solar%20quote." class="floating-wa" target="_blank">💬</a>
+
+  <script src="script.js" defer></script>
+</body>
+    </html>
