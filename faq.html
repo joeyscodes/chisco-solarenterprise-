@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Solar FAQ – Get answers to common questions about solar panel costs, battery life, maintenance, installation time, and more from Chisco Solar Enterprises.">
+  <meta property="og:title" content="Frequently Asked Questions | Chisco Solar Enterprises">
+  <meta property="og:description" content="Everything you need to know before switching to solar. Clear, honest answers from Lagos solar experts.">
+  <title>FAQ | Chisco Solar Enterprises</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .faq-item {
+      background: #fff;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+      overflow: hidden;
+    }
+    .faq-question {
+      padding: 1.5rem 2rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      border: none;
+      width: 100%;
+      text-align: left;
+      font-family: var(--font-body);
+      color: var(--blue-dark);
+    }
+    .faq-question span {
+      font-size: 1.5rem;
+      transition: transform 0.3s;
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      background: #fafbfc;
+    }
+    .faq-answer p {
+      padding: 0 2rem 1.5rem;
+      color: var(--gray-text);
+    }
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+    }
+    .faq-item.active .faq-question span {
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body>
+  <div id="scroll-sentinel"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">CHISCO<span>SOLAR</span></div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="calculator.html">Savings</a>
+      <a href="quote.html" class="nav-cta">Get Quote</a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header" style="background: var(--blue-dark); color: #fff;">
+    <div class="breadcrumb" style="color: var(--gold-accent);">Home > FAQ</div>
+    <h1 style="color: #fff;">Frequently Asked Questions</h1>
+    <p style="color: rgba(255,255,255,0.85); max-width: 600px; margin: 1rem auto;">
+      Everything you need to know about going solar — answered honestly by Lagos' trusted installers.
+    </p>
+  </section>
+
+  <!-- FAQ Items -->
+  <section class="section reveal" style="max-width: 800px;">
+    <div class="faq-item">
+      <button class="faq-question">How much does a solar system cost in Nigeria? <span>+</span></button>
+      <div class="faq-answer"><p>Costs vary depending on your energy needs. A small home system can start from around ₦500,000, while larger commercial setups may reach ₦5 million or more. We provide free assessments and custom quotes tailored to your budget.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How long do solar panels and batteries last? <span>+</span></button>
+      <div class="faq-answer"><p>Quality solar panels last 25–30 years with minimal degradation. Lithium batteries typically last 8–15 years depending on usage. We only install Tier‑1 equipment with solid warranties.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Do I need batteries with my solar system? <span>+</span></button>
+      <div class="faq-answer"><p>Batteries are optional but highly recommended in Nigeria due to grid instability. They store excess solar energy for night use and keep your power on during grid failures.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How long does installation take? <span>+</span></button>
+      <div class="faq-answer"><p>Most residential installations are completed within 3–7 days. Larger commercial projects may take 2–4 weeks. We work efficiently without compromising quality.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">What warranty do you offer? <span>+</span></button>
+      <div class="faq-answer"><p>We provide manufacturer warranties: typically 10–12 years on inverters, 25 years on panels, and 5–10 years on batteries. Additionally, we give a 1‑year workmanship warranty on all installations.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How do I know what size system I need? <span>+</span></button>
+      <div class="faq-answer"><p>We conduct a free energy audit — either remotely or by visiting your site. We'll analyze your appliances, daily usage, and bill to design the right capacity.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Is solar really cheaper than a generator? <span>+</span></button>
+      <div class="faq-answer"><p>Yes! While upfront cost is higher, solar eliminates fuel and maintenance costs. Most clients break even within 2–4 years, then enjoy virtually free electricity for decades.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can solar power my air conditioner? <span>+</span></button>
+      <div class="faq-answer"><p>Absolutely. With proper system sizing, solar can run multiple ACs, fridges, pumps, and heavy appliances simultaneously. We design for your exact load.</p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="footer-col">
+        <h3>CHISCO<span style="color:var(--gold-accent);">SOLAR</span></h3>
+        <p>Powering Nigeria with clean, reliable solar energy.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="quote.html">Get Quote</a>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p>Alaba Rago Rd, Alaba International Market Rd, Ojo, Lagos</p>
+        <a href="tel:+2348104269327">08104269327</a>
+        <a href="mailto:info@chiscosolar.com">info@chiscosolar.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year"></span> Chisco Solar Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348104269327?text=Hello%20Chisco%20Solar%20Enterprises%2C%20I%20would%20like%20a%20free%20solar%20quote." class="floating-wa" target="_blank">💬</a>
+
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+  <script src="script.js" defer></script>
+</body>
+  </html>
